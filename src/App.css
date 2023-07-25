@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+#loading {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+#loading-img {
+  width: 100vw;
+  height: auto;
+}

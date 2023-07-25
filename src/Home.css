@@ -1,0 +1,106 @@
+h1 {
+  color: white;
+  font-family: Hacked;
+}
+
+#home {
+  text-align: center;  
+}
+
+#title {
+  margin-top: 40vh;
+  transform: translate(0, -50%);
+  font-size: 10vw;
+  margin-bottom: 0;
+}
+
+@font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
+
+.circle {
+  position: absolute;
+  opacity: 0.1;
+  border-radius: 50%;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 calc(100vw / 20) grey;
+  animation-name: circle;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: -1;
+}
+
+@keyframes circle {
+  from {
+    height: 1px;
+    width: 1px;  
+  }
+  to {
+    height: 110vw;
+    width: 110vw;
+  }
+  
+}
+
+.link {
+  padding: 0;
+  opacity: 0.5;
+  display: inline-flex;
+  width: calc(100vw / 17);
+  height: calc(100vw / 17);
+  background-color: grey;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10%;
+}
+
+#discord {
+  margin-right: 2%;
+  margin-left: auto;
+}
+
+#discord img {
+  margin: 0;
+  padding: 0;
+  width: calc(100vw / 20);
+}
+
+
+#spotify {
+  margin-right: 2%;
+}
+
+#spotify img {
+   width: calc(100vw / 20);
+}
+
+#github {
+  margin-right: auto;
+}
+
+#github img{
+  width: calc(100vw / 20);
+}
+
+#steam {
+  margin-right: 2%;
+}
+
+#steam img {
+  width: calc(100vw / 20);
+}
+
+#reddit {
+  margin-right: 2%;
+}
+
+#reddit img {
+  width: calc(100vw / 20);
+}
+
+
+ 
